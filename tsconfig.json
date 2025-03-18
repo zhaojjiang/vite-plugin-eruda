@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "dist",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "types": ["node"]
+  }
+}
