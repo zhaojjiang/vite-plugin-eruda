@@ -17,8 +17,7 @@
   "type": "module",
   "main": "dist/index.js",
   "files": [
-    "dist",
-    "eruda.d.ts"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
